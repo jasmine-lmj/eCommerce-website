@@ -1,0 +1,21 @@
+.singleProductContainer {
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+
+    .imageContainer{
+        display:flex;
+        justify-content: center;
+    }
+
+        
+    .image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:200px;
+            height:200px;
+        }
+}
