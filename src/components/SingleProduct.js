@@ -21,9 +21,11 @@ const SingleProduct =({productDetail})=>{
             </div>
             <p>{productDetail.title}</p>
             <p>{`$`}{productDetail.price}</p>
+            <div>
             <button onClick={decrease}><i class="fa fa-light fa-circle-minus"></i></button>
             <span className="counter">{cartItem}</span>            
-            <button onClick={increase}><i class="fa fa-light fa-circle-plus"></i></button>            
+            <button onClick={increase}><i class="fa fa-light fa-circle-plus"></i></button>         
+            </div>   
             
         </div>
         </>

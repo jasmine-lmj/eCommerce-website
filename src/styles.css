@@ -274,26 +274,6 @@ P {
   justify-content: space-evenly;
   text-align: center;
 }
-.productPageContainer .productDetail {
-  width: 25%;
-  max-height: 70%;
-  padding-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.productPageContainer .imageContainer {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.productPageContainer .imageContainer .image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 200px;
-}
 
 .singleProductContainer {
   width: 30%;
@@ -305,6 +285,7 @@ P {
 .singleProductContainer .imageContainer {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .singleProductContainer .image {
   display: flex;
