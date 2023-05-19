@@ -276,6 +276,14 @@ nav {
   align-items: center;
 }
 
+.header {
+  background-color: #E4CBBE;
+  background-image: url("./assets/bg.png");
+  background-size: auto;
+  background-position: cover;
+  height: 50vh;
+}
+
 .productPageContainer {
   display: flex;
   flex-wrap: wrap;
@@ -286,6 +294,7 @@ nav {
 .singleProductContainer {
   width: 30%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -293,23 +302,20 @@ nav {
 .singleProductContainer .imageContainer {
   display: flex;
   justify-content: center;
-  width: 100%;
+  min-width: 100%;
 }
 .singleProductContainer .image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 200px;
   height: 200px;
 }
 
 footer {
-  background-color: beige;
+  background-color: #E4CBBE;
   text-align: center;
   line-height: 1.3rem;
   padding: 10px;
 }
 footer a {
-  color: brown;
+  color: darkcyan;
   text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
