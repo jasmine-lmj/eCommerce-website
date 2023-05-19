@@ -4,4 +4,11 @@
     background-size: auto;
     background-position: cover;
     height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+    font-size:10rem;
+    -webkit-text-stroke-color: white;-webkit-text-stroke-width: 5px;
+    }
 }

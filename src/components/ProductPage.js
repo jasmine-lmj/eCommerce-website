@@ -9,20 +9,25 @@ const ProductPage = ({ cart, setCart }) => {
       const response = await fetch("https://fakestoreapi.com/products");
       const dataObject = await response.json();
       setProductData(dataObject);
-      console.log(dataObject);
     };
     fetchProducts();
   }, []);
 
   return (
-    <ul className="productPageContainer wrapper">
-      {productData.map((product) => (
-        <li className="singleProductContainer" key={product.id}>
-          <SingleProduct productDetail={product} cart={cart} setCart={setCart}/>
-        </li>
-      ))}
-    </ul>
-  );
+    <>
+        <ul className="productPageContainer wrapper">
+            {productData.map((product) => (
+            <li className="singleProductContainer" key={product.id}>
+                <SingleProduct
+                productDetail={product}
+                cart={cart}
+                setCart={setCart}
+                />
+            </li>
+            ))}
+        </ul>
+    </>
+    );
 };
 
 export default ProductPage;

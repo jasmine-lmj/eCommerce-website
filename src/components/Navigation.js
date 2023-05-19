@@ -6,7 +6,7 @@ const Navigation = ({ cart }) => {
 
   return (
     <nav className="nav wrapper">
-      <h1>LMJ</h1>
+      <h2>LMJ</h2>
       <div className="cartContainer">
         <i className="fa fa-light fa-cart-shopping"></i>
         <span className="counter">{totalCount}</span>
