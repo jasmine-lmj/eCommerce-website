@@ -27,9 +27,9 @@ const SingleProduct = ({ productDetail, cart, setCart }) => {
     }
   };
 
+
   return (
-    <>
-      <div>
+      <div className="singleProduct">
         <div className="imageContainer">
           <img
             className="image"
@@ -42,7 +42,7 @@ const SingleProduct = ({ productDetail, cart, setCart }) => {
           {`$`}
           {productDetail.price}
         </p>
-        <div>
+        <div className="buttonContainer">
           <button onClick={decrease}>
             <i className="fa fa-light fa-circle-minus"></i>
           </button>
@@ -52,7 +52,6 @@ const SingleProduct = ({ productDetail, cart, setCart }) => {
           </button>
         </div>
       </div>
-    </>
   );
 };
 

@@ -1,6 +1,16 @@
 .productPageContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     text-align: center;
+    justify-content: center;
+    
+    .singleProductContainer {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding:20px;
+    }
 }
+

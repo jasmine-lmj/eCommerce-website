@@ -252,6 +252,7 @@ template {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 img {
@@ -264,9 +265,20 @@ p {
   padding: 15px;
 }
 
-h1,
-h2 {
+button {
+  background: none;
+  cursor: pointer;
+  color: #827081;
+}
+
+h1 {
   font-family: "Carter One";
+}
+
+h1,
+p,
+.counter {
+  color: #827081;
 }
 
 P,
@@ -283,6 +295,7 @@ P,
 .nav .cartContainer {
   position: fixed;
   right: 5rem;
+  color: #827081;
 }
 .nav .fa-cart-shopping {
   font-size: 1.5rem;
@@ -299,26 +312,44 @@ P,
 .productPageContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   text-align: center;
+  justify-content: center;
 }
-
-.singleProductContainer {
-  width: 30%;
+.productPageContainer .singleProductContainer {
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   padding: 20px;
 }
-.singleProductContainer .imageContainer {
+
+.singleProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.singleProduct .imageContainer {
+  width: 100%;
   display: flex;
   justify-content: center;
-  min-width: 100%;
+  align-items: center;
 }
-.singleProductContainer .image {
+.singleProduct .image {
   width: 200px;
   height: 200px;
+}
+.singleProduct .buttonContainer {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.singleProduct .fa-circle-minus:hover {
+  color: #ED6A5A;
+}
+.singleProduct .fa-circle-plus:hover {
+  color: #5CA4A9;
 }
 
 footer {
@@ -328,6 +359,6 @@ footer {
   padding: 10px;
 }
 footer a {
-  color: darkcyan;
+  color: #F53D3D;
   text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */

@@ -3,7 +3,7 @@ return (
     <footer>
         <p>
             Created by 
-            <a href="https://jasminelo.com/"> Jasmine </a> 2023©
+            <a href="https://jasminelo.com/"> Jasmine Lo</a> 2023©
         </p>
     </footer> 
 );

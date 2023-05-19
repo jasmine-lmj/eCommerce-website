@@ -6,6 +6,7 @@
 
 ul{
     list-style: none;
+    padding: 0;
 }
 
 img{
@@ -16,4 +17,10 @@ img{
 p {
     margin:0;
     padding:15px;
+}
+
+button{
+    background: none;
+    cursor: pointer;
+    color:#827081;
 }
