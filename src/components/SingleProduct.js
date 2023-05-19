@@ -1,12 +1,9 @@
 import { useState } from "react";
 const SingleProduct =({productDetail})=>{
     const [cartItem, setCartItem]=useState(0)
-    // const [addProduct, setAddProduct]= useState(false)
-    // const [removeProduct, setRemoveProduct]= useState(false)
     const increase = ()=>{
         setCartItem( cartItem + 1) ;
     }
-    
     const decrease=()=>{
         if (cartItem > 0){
             setCartItem(cartItem - 1);

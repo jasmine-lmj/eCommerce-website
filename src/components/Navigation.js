@@ -3,7 +3,7 @@ const Navigation = (props)=>{
     return(
         <>
         <nav>
-            <h2>Cool Little Shop</h2>
+            <h1>Cool Little Shop</h1>
             <div>
                 <i className="fa fa-light fa-cart-shopping"></i>
                 <span className="counter">{props.cartItem}</span>
