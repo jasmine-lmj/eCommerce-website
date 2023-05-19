@@ -264,16 +264,28 @@ p {
   padding: 15px;
 }
 
-P {
+h1,
+h2 {
+  font-family: "Carter One";
+}
+
+P,
+.counter {
+  font-family: "Amiko";
   margin: 0;
 }
 
-nav {
-  margin: 1rem;
-  padding: 1rem;
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.nav .cartContainer {
+  position: fixed;
+  right: 5rem;
+}
+.nav .fa-cart-shopping {
+  font-size: 1.5rem;
 }
 
 .header {

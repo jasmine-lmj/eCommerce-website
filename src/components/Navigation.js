@@ -5,9 +5,9 @@ const Navigation = ({ cart }) => {
   );
 
   return (
-    <nav className="wrapper">
+    <nav className="nav wrapper">
       <h1>LMJ</h1>
-      <div>
+      <div className="cartContainer">
         <i className="fa fa-light fa-cart-shopping"></i>
         <span className="counter">{totalCount}</span>
       </div>
